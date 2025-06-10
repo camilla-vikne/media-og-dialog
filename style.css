@@ -1,0 +1,30 @@
+/* header, h1
+main, section
+#video-section, #audio-section, #iframe-section */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: lightgreen;
+  height: 100px;
+  width: 100svw;
+  text-align: center;
+  color: darkred;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+main {
+  height: 100svh;
+  width: 100svw;
+  background-color: lightsalmon;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+section {
+  height: 20svh;
+  width: 80svw;
+  background-color: lightsteelblue;
+}
