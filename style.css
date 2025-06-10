@@ -24,7 +24,24 @@ main {
   justify-content: space-evenly;
 }
 section {
-  height: 20svh;
-  width: 80svw;
   background-color: lightsteelblue;
+}
+#video-section {
+  max-height: fit-content;
+  max-width: fit-content;
+}
+video {
+  border-radius: 20px;
+  box-shadow: 10px 20px 15px black;
+}
+#audio-section {
+  height: 30svh;
+  width: 80svw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+audio {
+  border-radius: 20px;
+  background-color: hotpink;
 }

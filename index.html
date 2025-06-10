@@ -11,8 +11,23 @@
       <h1>Media og dialog</h1>
     </header>
     <main>
-      <section id="video-section"></section>
-      <section id="audio-section"></section>
+      <section id="video-section">
+        <video
+          width="400px"
+          controls
+          muted
+          loop
+          poster="./media/freestocks-y_dCjaRWthY-unsplash.jpg"
+        >
+          <source src="./media/video.mp4" type="video/mp4" />
+          Your browser does not support this video
+        </video>
+      </section>
+      <section id="audio-section">
+        <audio controls autoplay muted loop>
+          <source src="./media/audio.mp3" type="audio/mp3" />
+        </audio>
+      </section>
       <section id="iframe-section"></section>
     </main>
   </body>
