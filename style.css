@@ -26,8 +26,27 @@ main {
 }
 section {
   background-color: lightsteelblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#dialog-styling {
+  background-color: lightyellow;
+  color: hotpink;
+  font-size: 30px;
+  text-align: center;
+  border: 5px solid green;
+  height: 100%;
+  width: 100%;
+}
+dialog {
+  height: 200px;
+  width: 400px;
+  border-radius: 20px;
 }
 #iframe-section {
+  margin-top: 200px;
   height: 70svh;
   width: 80svw;
 }
